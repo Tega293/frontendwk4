@@ -1,0 +1,97 @@
+.one{
+    display: grid;
+    grid-template-columns: repeat(4, 18rem);
+    grid-template-rows: repeat(5, 130px);
+    grid-template-areas: "a a b c"
+                         "d d e f"
+                         "d d e g"
+                         "h h e i"
+                         "j j j k";
+    gap: 8px;
+    
+    
+}
+
+.one article{
+    background-color: bisque;
+    padding-top: 20px;
+}
+
+.one article:nth-of-type(1){
+    grid-area: a;
+    border-radius: 8%;
+}
+.one article:nth-of-type(2){
+    grid-area: b;
+    border-radius: 8%;
+}
+.one article:nth-of-type(3){
+    grid-area: c;
+    border-radius: 8%;
+}
+.one article:nth-of-type(4){
+    grid-area: d;
+    border-radius: 8%;
+}
+.one article:nth-of-type(5){
+    grid-area: e;
+    border-radius: 8%;
+}
+.one article:nth-of-type(6){
+    grid-area: f;
+    border-radius: 8%;
+}
+.one article:nth-of-type(7){
+    grid-area: g;
+    border-radius: 8%;
+}
+.one article:nth-of-type(8){
+    grid-area: h;
+    border-radius: 8%;
+}
+.one article:nth-of-type(9){
+    grid-area: i;
+    border-radius: 8%;
+}
+.one article:nth-of-type(10){
+    grid-area: j;
+    border-radius: 8%;
+}
+
+
+.two{
+    display: grid;
+    grid-template-columns: repeat(3, 28rem);
+    grid-template-rows: repeat(3, 130px);
+    grid-template-areas: "one two three"
+                         "one four five"
+                         "one four five";
+    gap: 8px; 
+}
+
+.two article{
+    background-color: aquamarine;
+    border-radius: 8%;
+    padding-top: 20px;
+}
+.two article:nth-of-type(1){
+    grid-area: one;
+    border-radius: 8%;
+}
+article:nth-of-type(2){
+    grid-area: two;
+    border-radius: 8%;
+}
+article:nth-of-type(3){
+    grid-area: three;
+    border-radius: 8%;
+}
+article:nth-of-type(4){
+    grid-area: four;
+    border-radius: 8%;
+}
+article:nth-of-type(5){
+    grid-area: five;
+    border-radius: 8%;
+}
+
